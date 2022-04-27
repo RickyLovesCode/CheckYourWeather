@@ -15,12 +15,12 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
     />
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <title>Weather Dashboard</title>
+    <title>Check Your Weather</title>
   </head>
   <body>
-    <nav class="navbar navbar-dark bg-dark">
-      <span class="navbar-brand mb-0 h1 w-100 text-center"
-        >Weather Dashboard</span
+    <nav class="navbar navbar-light bg-warning">
+      <span class="navbar-brand mb-0 h1 w-100 text-left"
+        >Check Your Weather 🌞</spans
       >
     </nav>
     <div class="container">
@@ -36,19 +36,19 @@
               aria-label="Enter city name"
             />
             <div class="input-group-append">
-              <button class="btn btn-primary" type="button" id="search-button">
+              <button class="btn btn-info" type="button" id="search-button">
                 <i class="fas fa-search"></i>
               </button>
             </div>
           </div>
-          <button class="btn btn-primary mb-3" type="button" id="clear-history">
+          <button class="btn btn-info mb-3" type="button" id="clear-history">
             Clear history
           </button>
           <form id="history"></form>
         </div>
         <div class="col-8">
           <div class="row mr-0">
-            <div class="col-12 border border-dark m-3 rounded">
+            <div class="col-12 border border-warning m-3 rounded">
               <div class="row">
                 <div class="col-12">
                   <span id="city-name" class="city-name align-middle"></span>
@@ -79,7 +79,7 @@
           </div>
           <div class="row">
             <div class="col-12">
-              <h3>5-Day Forecast</h3>
+              <h3 class="text-info">5-Day Forecast</h3>
             </div>
           </div>
           <div class="row">
